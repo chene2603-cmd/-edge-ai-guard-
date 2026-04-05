@@ -28,15 +28,15 @@ All core code, system architecture, FPGA acceleration logic, deception detection
 ## 🛡️ System Capabilities | 系统能力
 
 - Real-time integrity verification for AI outputs (P99 latency <100ms)  
-  AI输出可信性实时验证（P99延迟 <100ms）  
+  AI输出可信性实时验证（P99延迟 <100ms）
 - Built on seL4 microkernel with hard real-time guarantees  
-  基于 seL4 微内核，具备硬实时保障  
+  基于 seL4 微内核，具备硬实时保障
 - Optimized for RISC-V hardware platforms with FPGA parallel acceleration  
-  面向 RISC-V 硬件平台，集成 FPGA 并行加速  
+  面向 RISC-V 硬件平台，集成 FPGA 并行加速
 - Multimodal anomaly detection and secure fallback mechanism  
-  多模态异常检测与安全降级机制  
+  多模态异常检测与安全降级机制
 - For authorized internal R&D and designated deployment only  
-  仅限授权内部研发与指定场景部署  
+  仅限授权内部研发与指定场景部署
 
 ---
 
