@@ -1,0 +1,29 @@
+# 编译产物
+*.img
+*.elf
+*.o
+*.d
+build/
+target/
+out/
+
+# 密钥与敏感配置
+*.key
+*.pem
+secret/
+config/private*.h
+
+# 日志与监控数据
+*.log
+monitor/*.data
+alerts/*.log
+
+# 临时文件
+*.tmp
+*.swp
+.DS_Store
+
+# 禁止上传模型权重
+*.bin
+*.pth
+model/*.pt
